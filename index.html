@@ -13,15 +13,16 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <a href="#"><h1 class="logo">manage</h1></a>
+        <span class="header__msg">Hacer click en el Logo 🤭</span>
+        <h1 class="logo">manage</h1>
         <nav class="header__nav header__desktop">
-            <a href="">Pricing</a>
-            <a href="">Product</a>
-            <a href="">About Us</a>
-            <a href="">Careers</a>
-            <a href="">Community</a>
+            <a href="#" class="header__nav__item">Pricing</a>
+            <a href="#" class="header__nav__item">Product</a>
+            <a href="#" class="header__nav__item">About Us</a>
+            <a href="#" class="header__nav__item">Careers</a>
+            <a href="#" class="header__nav__item">Community</a>
         </nav>
-        <button class="header__button header__desktop">Get Started</button>
+        <button class="header__button header__desktop button">Get Started</button>
         <i class="fa-solid fa-bars header__icon"></i>
     </header>
     <main class="main">
@@ -36,7 +37,7 @@
             <section class="cover__info">
                 <h2>Bring everyone together to build better products.</h2>
                 <p class="cover__text">Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team goals in view.</p>
-                <button class="cover__button">Get Started</button>
+                <button class="cover__button button">Get Started</button>
             </section>
         </article>
         <!-- Description -->
@@ -95,21 +96,21 @@
                 <div></div>
                 <div></div>
             </section>
-            <button>Get Started</button>
+            <button class="button">Get Started</button>
         </article>
         <!-- Banner -->
         <article class="banner">
             <h2 class="banner__title">Simplify how your team works today.</h2>
-            <button class="banner__button">Get Started</button>
+            <button class="banner__button button">Get Started</button>
             <div class="banner__bg"></div>
         </article>
     </main>
     <!-- Footer -->
     <footer class="footer">
         <!-- Newsletter Form -->
-        <form method="POST" class="footer__form">
-            <input type="email" name="email" placeholder="Update in your inbox..." class="footer__input">
-            <button type="submit" class="footer__button">Go</button>
+        <form action="data.html" method="POST" class="footer__form">
+            <input type="email" name="email" placeholder="Update in your inbox..." class="footer__input" required>
+            <button type="submit" class="footer__button button">Go</button>
         </form>
         <!-- Site Map -->
         <article class="footer__links">
@@ -142,11 +143,11 @@
         <!-- Social Media & Logos -->
         <article class="footer__logos">
             <ul class="footer__logos__list">
-                <li><i class="fa-brands fa-facebook-square"></i></li>
-                <li><i class="fa-brands fa-youtube-square"></i></li>
-                <li><i class="fa-brands fa-twitter"></i></li>
-                <li><i class="fa-brands fa-pinterest"></i></li>
-                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a></li>
+                <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube-square"></i></a></li>
+                <li><a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
             <h2 class="logo">manage</h2>
         </article>
